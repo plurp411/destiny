@@ -1,0 +1,59 @@
+/*body {
+  font-family: Arial;
+  background-color: rgb(60, 60, 60);
+  color: rgb(220, 220, 220);
+  font-size: 11px;
+}
+
+.emoji-div {
+  background-color: white;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 9999px;
+  font-size: 20px;
+}
+
+.time-div {
+  transition-duration: 0.4s;
+  padding: 10px 20px;
+}
+
+.time-div:hover {
+  transition-duration: 0.4s;
+  padding: 10px 40px;
+}
+
+*/
+
+body {
+  font-family: Arial;
+  background-color: rgb(60, 60, 60);
+  color: rgb(220, 220, 220);
+  font-size: 11px;
+  text-align: center;
+}
+
+.times-div {
+  text-align: center;
+}
+
+.time-div {
+  transition-duration: 0.4s;
+  padding: 5px 20px;
+}
+
+.time-div:hover {
+  transition-duration: 0.4s;
+/*   padding: 10px 40px; */
+  padding: 20px 20px;
+}
+
+.emoji-div {
+  background-color: white;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 9999px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
