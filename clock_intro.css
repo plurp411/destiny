@@ -45,7 +45,7 @@ body {
 .time-div:hover {
   transition-duration: 0.4s;
 /*   padding: 10px 40px; */
-  padding: 20px 20px;
+/*   padding: 20px 20px; */
 }
 
 .emoji-div {
