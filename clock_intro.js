@@ -50,7 +50,10 @@ function getEmoji() {
 function FormattedDate(props) {
 
   var presentDate = props.date;
-  var leaveDate = new Date(2020, 4, 31, 12, 0, 0);
+  
+//   var leaveDate = new Date(2020, 4, 31, 12, 0, 0);
+  var leaveDate = new Date(2020, 7, 24, 3, 0, 0);
+  
   var timeDif = presentDate.getTime() - leaveDate.getTime();
 
   var days = Math.floor(timeDif / _MS_PER_DAY);
